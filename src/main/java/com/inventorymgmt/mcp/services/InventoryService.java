@@ -18,7 +18,6 @@ public class InventoryService {
     private final MaterialRepository materialRepository;
     private final StockRepository stockRepository;
 
-    @Autowired
     public InventoryService(MaterialRepository materialRepository, StockRepository stockRepository) {
         this.materialRepository = materialRepository;
         this.stockRepository = stockRepository;
